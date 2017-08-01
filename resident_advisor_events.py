@@ -4,7 +4,7 @@ Program to web scrape artists' event information.
 Artists' upcoming events' information is scraped from www.residentadvisor.net.
 """
 
-import open_google_calendar
+import google_calendar_login
 import csv
 import requests
 from datetime import datetime
@@ -106,4 +106,4 @@ class ArtistInfo:
 obj = ArtistInfo(ARTISTS, CSV_LOCATION)
 obj.scrape_artist_info()
 obj.write_to_csv()
-open_google_calendar.open_calendar(EMAIL, PASSWORD)
+google_calendar_login.open_calendar(EMAIL, PASSWORD)
