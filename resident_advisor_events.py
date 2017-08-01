@@ -15,7 +15,7 @@ ARTISTS = [" "]
 # Location of the csv file information is to be written to
 CSV_LOCATION = "/Users/alexsadler/Desktop/dj_info.csv"
 # User's email address and password
-EMAIL = "alexandernsadler"
+EMAIL = ""
 PASSWORD = ""
 
 
