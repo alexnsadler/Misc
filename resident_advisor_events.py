@@ -37,7 +37,7 @@ class ArtistInfo:
 
         Input: a list of artists in all lowercase, string format
 
-        Output: artist tour information to a csv.
+        Output: artist tour information as a list of lists.
         """
         for artist in self.artist_list:
 
@@ -90,7 +90,7 @@ class ArtistInfo:
         with artist's event information. csv_location is the file location for
         the input to be written to.
 
-        Output: a csv file with the information from csv_list imported
+        Output: a csv file with the information from csv_list
         """
         with open(self.csv_location, "wb") as output:
             writer = csv.writer(output, lineterminator='\n')
