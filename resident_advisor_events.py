@@ -25,7 +25,8 @@ class ArtistInfo:
     def __init__(self, artist_list, csv_location):
         """Define the initial arguments for the ArtistInfo class.
 
-        Input: artist_list is a list of artists
+        Input: artist_list is a list of artists, and csv_location is the
+        location of the csv file.
         """
         self.artist_list = artist_list
         self.csv_location = csv_location
