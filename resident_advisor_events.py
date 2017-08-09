@@ -13,7 +13,7 @@ from bs4 import BeautifulSoup
 # List of artists in all lowercase that are on www.residentadvisor.net
 ARTISTS = [" "]
 # Location of the csv file information is to be written to
-CSV_LOCATION = "/Users/alexsadler/Desktop/dj_info.csv"
+CSV_LOCATION = ""
 # User's email address and password
 EMAIL = ""
 PASSWORD = ""
