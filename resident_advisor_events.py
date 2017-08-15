@@ -14,9 +14,6 @@ from bs4 import BeautifulSoup
 ARTISTS = [" "]
 # Location of the csv file information is to be written to
 CSV_LOCATION = ""
-# User's email address and password
-EMAIL = ""
-PASSWORD = ""
 
 
 class ArtistInfo:
@@ -107,4 +104,3 @@ class ArtistInfo:
 obj = ArtistInfo(ARTISTS, CSV_LOCATION)
 obj.scrape_artist_info()
 obj.write_to_csv()
-google_calendar_login.open_calendar(EMAIL, PASSWORD)
